@@ -1,4 +1,68 @@
-<h1>My API is running!</h1>
-<a href="https://my-app-backend-efhe.onrender.com/accounts">Accounts</a>
-<a href="https://my-app-backend-efhe.onrender.com/photos">Photos</a>
-<a href="https://my-app-backend-efhe.onrender.com/projects">Projects</a>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My API Server</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: #f0f2f5;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #223771;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        a {
+            display: block;
+            padding: 12px;
+            background: #f8f9fa;
+            text-decoration: none;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+
+        a:hover {
+            background: #eef2ff;
+            border-color: #223771;
+            color: #223771;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🚀 API is Running!</h1>
+        <p>Server đang hoạt động ổn định.</p>
+
+        <div class="links">
+            <a href="/accounts" target="_blank">👥 Xem danh sách Accounts</a>
+            <a href="/projects" target="_blank">📂 Xem danh sách Projects</a>
+            <a href="/photos" target="_blank">🖼️ Xem danh sách Photos</a>
+        </div>
+    </div>
+</body>
+
+</html>
